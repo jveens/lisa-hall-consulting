@@ -3,12 +3,12 @@
 enable: true # Control the visibility of this section across all pages where it is used
 title: "Let’s Work Together"
 description: |
-  We are digital agency that helps businesses develop immersive and engaging user experiences
+  We are a full-service strategic communications consultancy based in Vancouver, BC, working with clients locally and globally. We help organizations bring their vision to life—crafting stories that resonate, build connection, and drive meaningful impact.
 
 button:
   enable: true
   variant: "fill" # Options: "fill" | "outline" | "text" | "circle"
-  label: "Let’s Talk with us"
+  label: "Get in Touch"
   url: "/"
   rel: ""
   target: ""

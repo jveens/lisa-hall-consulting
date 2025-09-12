@@ -63,7 +63,7 @@
   # Contact form settings
   # Available providers: "formspree", "formsubmit.co", "netlify"
   # Available actions: "https://formspree.io/f/form_id", "https://formsubmit.co/your_email@example.com", "/"
-  contactFormAction   = "https://formsubmit.co/your_email@example.com"
+  contactFormAction   = "https://formsubmit.co/jennyveens@gmail.com"
   contactFormProvider = "formsubmit.co"
 
   footerDescription = "" # Check src/i18n/en.json and src/i18n/fr.json for changing the footer description in different languages or directly add value here if you are not using internationalization feature
@@ -79,16 +79,16 @@
   [settings.multilingual]
     # Set `enable` to `true` for enabling the multilingual feature or `false` for disabling it.
     # Run `npm run remove-multilingual` for removing multilingual content files after disabling the feature.
-    enable               = true
+    enable               = false
     defaultLanguage      = "en"
     disableLanguages     = [] # List of languages to disable (eg: ["fr", "es"])
     showDefaultLangInUrl = false # Show default language in URL (eg: https://getastrothemes.com/en/)
 
   # Global Contact Information
   [settings.contactInfo]
-    address = "27 Division St, New York, <br /> NY 10002, USA"
-    email   = "[folex.agency@mail.com](mailto:folex.agency@mail.com)"
-    phone   = "[+1 800 123 654 987](tel:+1800123654987)"
+    address = "Vancouver, BC, Canada"
+    email   = "[info@lisahallcommunications.com](info@lisahallcommunications.com)"
+    phone   = "+1 778 918 2998"
 
   # Header Offcanvas Configuration
   # Update social links in `src/config/social.json`
@@ -107,7 +107,7 @@
 [settings.navigationButton]
   enable = true
   label  = "Get in touch" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
-  url    = "/"
+  url    = "#footer-with-contact"
 
 
 # OpenGraph Metadata
