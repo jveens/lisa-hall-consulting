@@ -75,7 +75,7 @@
 /* Common Navbar Base Styles */
 .navbar {
   /* Base layout */
-  @apply flex max-h-[80vh] lg:relative lg:mx-auto lg:items-center lg:bg-transparent;
+  @apply flex max-h-[80vh] lg:relative lg:mx-auto lg:ml-0 lg:items-center lg:bg-transparent;
 
   /* Mobile overlay behavior */
   @apply max-lg:hs-dropdown-open:opacity-100 max-lg:top-full max-lg:z-40 max-lg:hidden max-lg:w-full max-lg:flex-col max-lg:space-y-1 max-lg:border max-lg:bg-white max-lg:p-2 max-lg:opacity-0 max-lg:transition-[opacity,margin];

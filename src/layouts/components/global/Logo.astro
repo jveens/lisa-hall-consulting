@@ -20,7 +20,7 @@ let {
   logo,
   logoWidth = "1.8125rem",
   logoHeight = "1.8125rem",
-  logoText,
+  logoText = "Lisa Hall Communications",
   logoAlternate,
   title,
 }: {
@@ -46,29 +46,12 @@ if (Astro.props.height) {
   {
     src || logoAlternate || logo ? (
       <>
-        <OptimizedImage
-          src={src ? src : logo}
-          class="logo"
-          alt={toSentenceCase("Brand logo of " + title)}
-          style={{
-            height: logoHeight,
-            width: logoWidth,
-          }}
-        />
-        {logoAlternate && (
-          <OptimizedImage
-            src={logoAlternate}
-            class="logo-alternate"
-            alt={toSentenceCase("Brand logo of " + title)}
-            style={{
-              height: logoHeight,
-              width: logoWidth,
-            }}
-          />
-        )}
-
         {logoText && (
-          <span class="logo-text" set:html={markdownify(logoText)} />
+          <span
+            class="logo-text lg:text-h3"
+            set:html={markdownify(logoText)}
+            style={{ lineHeight: 1.2 }}
+          />
         )}
       </>
     ) : logoText ? (
