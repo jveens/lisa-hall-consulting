@@ -90,7 +90,7 @@ form:
       placeholder: "Subject *"
       name: "Subject" # This is crucial. Its indicate under which name you want to receive this field data
       required: false
-      halfWidth: true
+      halfWidth: false
       dropdown:
         type: "" # select | search - default is select
         search: # if type is search then it will work
@@ -102,34 +102,34 @@ form:
           - label: "Partnership Opportunity"
             value: "Partnership Opportunity"
             selected: false
-          - label: "Investment Opportunity"
-            value: "Investment Opportunity"
-            selected: false
-    - label: ""
-      placeholder: "Subject With Search *"
-      name: "Subject With Search" # This is crucial. Its indicate under which name you want to receive this field data
-      required: false
-      halfWidth: true
-      dropdown:
-        type: "search" # select | search - default is select
-        search: # if type is search then it will work
-          placeholder: "Subject With Search"
-        items:
-          - label: "General Inquiry"
-            value: "General Inquiry"
-            selected: false
-          - label: "Partnership Opportunity"
-            value: "Partnership Opportunity"
-            selected: false
-          - label: "Career Opportunity"
-            value: "Career Opportunity"
-            selected: false
-          - label: "Investment Opportunity"
-            value: "Investment Opportunity"
-            selected: false
-          - label: "Media Inquiry"
-            value: "Media Inquiry"
-            selected: false
+          # - label: "Investment Opportunity"
+          #   value: "Investment Opportunity"
+          #   selected: false
+    # - label: ""
+    #   placeholder: "Subject With Search *"
+    #   name: "Subject With Search" # This is crucial. Its indicate under which name you want to receive this field data
+    #   required: false
+    #   halfWidth: true
+    #   dropdown:
+    #     type: "search" # select | search - default is select
+    #     search: # if type is search then it will work
+    #       placeholder: "Subject With Search"
+    #     items:
+    #       - label: "General Inquiry"
+    #         value: "General Inquiry"
+    #         selected: false
+    #       - label: "Partnership Opportunity"
+    #         value: "Partnership Opportunity"
+    #         selected: false
+    #       - label: "Career Opportunity"
+    #         value: "Career Opportunity"
+    #         selected: false
+    #       - label: "Investment Opportunity"
+    #         value: "Investment Opportunity"
+    #         selected: false
+    #       - label: "Media Inquiry"
+    #         value: "Media Inquiry"
+    #         selected: false
     - label: ""
       tag: "textarea"
       defaultValue: ""
@@ -138,23 +138,23 @@ form:
       name: "Message" # This is crucial. Its indicate under which name you want to receive this field data
       required: true
       halfWidth: false
-    - label: "Google Search" # only valid for type="checkbox" & type === "radio"
-      checked: false # only valid for type="checkbox" & type === "radio"
-      name: "User Source" # This is crucial. Its indicate under which name you want to receive this field data
-      required: true
-      groupLabel: "How did you hear about us?" # Radio Inputs Label
-      group: "source" # when you add group then it will omit space between the same group radio input
-      type: "radio"
-      halfWidth: true
-      defaultValue: ""
-    - label: "Social Media" # only valid for type="checkbox" & type === "radio"
-      name: "User Source" # This is crucial. Its indicate under which name you want to receive this field data
-      required: true
-      groupLabel: "" # Radio Inputs Label
-      group: "source" # when you add group then it will omit space between the same group radio input
-      type: "radio"
-      halfWidth: true
-      defaultValue: ""
+    # - label: "Google Search" # only valid for type="checkbox" & type === "radio"
+    #   checked: false # only valid for type="checkbox" & type === "radio"
+    #   name: "User Source" # This is crucial. Its indicate under which name you want to receive this field data
+    #   required: true
+    #   groupLabel: "How did you hear about us?" # Radio Inputs Label
+    #   group: "source" # when you add group then it will omit space between the same group radio input
+    #   type: "radio"
+    #   halfWidth: true
+    #   defaultValue: ""
+    # - label: "Social Media" # only valid for type="checkbox" & type === "radio"
+    #   name: "User Source" # This is crucial. Its indicate under which name you want to receive this field data
+    #   required: true
+    #   groupLabel: "" # Radio Inputs Label
+    #   group: "source" # when you add group then it will omit space between the same group radio input
+    #   type: "radio"
+    #   halfWidth: true
+    #   defaultValue: ""
     # - label: "Referral" # only valid for type="checkbox" & type === "radio"
     #   name: "User Source" # This is crucial. Its indicate under which name you want to receive this field data
     #   required: true
@@ -171,7 +171,7 @@ form:
     #   type: "radio"
     #   halfWidth: true
     #   defaultValue: ""
-    - label: "I agree to the terms and conditions and [privacy policy](/)." # only valid for type="checkbox" & type === "radio"
+    - label: "I agree to the terms and conditions and [privacy policy](/privacy-policy/)." # only valid for type="checkbox" & type === "radio"
       id: "privacy-policy"
       name: "Agreed Privacy" # This is crucial. Its indicate under which name you want to receive this field data
       value: "Agreed" # Value that will be submit (applicable for type="checkbox" & type === "radio")

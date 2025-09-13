@@ -4,47 +4,26 @@ metaDescription: "This is a example description"
 draft: false
 ---
 
-**Effective Date: July, 2022**
+**Last Updated: September 2025**
 
-Welcome to Folex ("we," "our," or "us"). Your privacy is important to us, and we are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website, https://www.folex.com ("Website").
+This website respects your privacy and is committed to protecting it. This Privacy Policy explains what information we collect and how it is used.
 
 ### Information We Collect
 
-We collect two types of information from you:
-
-- **Personal Information:**
-  - Name
-  - Email address
-  - Billing information (e.g., credit card details)
-  - Any information you provide voluntarily through forms, surveys, or account creation
-
-- **Non-Personal Information:**
-  - IP address
-  - Browser type
-  - Operating system
-  - Pages visited and time spent on our site
-  - Referring website
+- Form submissions: When you use the contact form, your information (such as name, email address, and message) is sent via FormSubmit (https://formsubmit.co
+  ).
+- No other personal information is collected automatically when you visit this website.
+- We do not use cookies, analytics tools, or tracking technologies at this time.
 
 ### How We Use Your Information
 
-We use the information we collect for the following purposes:
+Information submitted through the contact form is used solely to respond to your inquiry or request.
 
-- To provide and improve our services
-- To process transactions and send receipts
-- To send you updates, promotions, and service-related communications
-- To personalize your experience on our Website
-- To comply with legal obligations
-- To detect and prevent fraudulent activity
+We do not sell, rent, or share your personal information with third parties for marketing purposes.
 
-### Cookies and Tracking Technologies
+### Third-Party Services
 
-We use cookies and similar tracking technologies to enhance your experience on our Website. These include:
-
-- **Essential Cookies:** Required for the operation of our Website.
-- **Performance Cookies:** Help us understand how you use our site.
-- **Marketing Cookies:** Track your browsing behavior for targeted advertising.
-
-You can control cookies through your browser settings.
+FormSubmit acts as a processor for handling form submissions. You can review their privacy policy here: https://formsubmit.co/privacy.pdf.
 
 ### Sharing of Information
 
@@ -53,6 +32,12 @@ We do not sell, rent, or trade your personal information. However, we may share 
 - **Service Providers:** Third-party companies that help us operate our Website and provide services.
 - **Legal Authorities:** When required by law or to protect our rights and property.
 - **Business Transfers:** In case of a merger, acquisition, or sale of assets.
+
+### Data Retention
+
+Messages submitted via the form may be stored in our email inbox for record-keeping and follow-up.
+
+If you would like your message deleted, please contact us at [insert contact email].
 
 ### Data Security
 
@@ -68,26 +53,16 @@ Depending on your location, you may have the following rights regarding your per
 - Restrict processing of your data
 - Withdraw consent for data usage
 
-To exercise your rights, please contact us at privacy@folex.com.
+To exercise your rights, please contact us at info@lisahallcommunications.com.
 
 ### Third-Party Links
 
 Our Website may contain links to third-party websites. We are not responsible for the privacy practices of these websites. We encourage you to review their privacy policies before providing any personal information.
 
-### Children's Privacy
+### Your Rights
 
-Our Website is not intended for individuals under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.
+You have the right to request access, correction, or deletion of any personal information you provide through the contact form. Please contact us at info@lisahallcommunications.com to exercise these rights.
 
 ### Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Effective Date." We encourage you to review this Privacy Policy periodically.
-
-### Contact Us
-
-If you have any questions or concerns about this Privacy Policy, please contact us at:
-
-Folex
-Email: privacy@folex.com
-Address: 123 Folex Lane, Imaginary City, IC 12345, USA
-
-Thank you for trusting Folex with your personal information!
+We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last Updated" date. We encourage you to review this Privacy Policy periodically.
