@@ -47,21 +47,21 @@ const copyrightParts = splitProtectedText(copyrightText);
             />
           )
         }
-        <div class="space-y-4">
-          <SocialComponent
-            size="lg"
-            layout="dark"
-            class="gap-5"
-            linkType="follow"
-            list={social.main.filter((s) => s.enable)}
-          />
-        </div>
       </div>
       <ContactForm form={form} />
     </div>
     <div
       class="font-secondary flex flex-wrap items-center justify-between gap-x-8 gap-y-6 pt-6 text-sm leading-loose font-semibold uppercase">
-      {address && <p set:html={markdownify(address)} />}
+      <div>
+        {address && <p set:html={markdownify(address)} />}
+        <SocialComponent
+          size="lg"
+          layout="dark"
+          class="mt-2 gap-5"
+          linkType="follow"
+          list={social.main.filter((s) => s.enable)}
+        />
+      </div>
       <div class="md:text-end">
         {phone && <p set:html={markdownify(phone)} />}
         {email && <p set:html={markdownify(email)} />}

@@ -94,31 +94,36 @@ if (!enable) {
               <div
                 class:list={[
                   "hs-accordion relative border-b py-6 text-start first:border-t lg:pe-20",
-                  "transition-all duration-300 lg:flex lg:flex-row lg:items-start lg:justify-between lg:gap-16",
+                  "transition-all duration-300",
                   // index === 0 && "active",
                 ]}
                 id={"accordion-" + id}>
                 <div
-                  class="font-secondary mt-2.5 mb-4 text-2xl font-semibold lg:mb-0 lg:text-sm"
-                  set:html={(index <= 9 ? "0" : "") + (index + 1)}
-                />
-                <button
-                  title="show or hide accordion content"
-                  class="hs-accordion-toggle absolute inset-0 size-full"
-                />
-                <button
-                  title="show or hide accordion content"
-                  aria-controls={"accordion-content-" + id}
-                  aria-expanded={index === 0 ? "true" : "false"}
-                  class="hs-accordion-toggle text-dark font-secondary text-h5 w-full pe-20 text-start font-medium lg:pe-0"
-                  set:html={item.title}
-                />
+                  class:list={[
+                    "lg:flex lg:flex-row lg:items-start lg:justify-between lg:gap-16",
+                  ]}>
+                  <div
+                    class="font-secondary mt-2.5 mb-4 text-2xl font-semibold lg:mb-0 lg:text-sm"
+                    set:html={(index <= 9 ? "0" : "") + (index + 1)}
+                  />
+                  <button
+                    title="show or hide accordion content"
+                    class="hs-accordion-toggle absolute inset-0 size-full"
+                  />
+                  <button
+                    title="show or hide accordion content"
+                    aria-controls={"accordion-content-" + id}
+                    aria-expanded={index === 0 ? "true" : "false"}
+                    class="hs-accordion-toggle text-dark font-secondary text-h5 w-full pe-20 text-start font-medium lg:pe-0"
+                    set:html={item.title}
+                  />
+                </div>
                 <div
                   role="region"
                   id={"accordion-content-" + id}
                   aria-labelledby={"accordion-" + id}
                   class:list={[
-                    "hs-accordion-content hs-accordion-active:opacity-100 hidden w-full max-w-lg overflow-hidden opacity-0 transition-all duration-300 ease-linear",
+                    "hs-accordion-content hs-accordion-active:opacity-100 hidden w-full max-w-lg overflow-hidden opacity-0 transition-all duration-300 ease-linear lg:mt-2 lg:ps-22",
                     // index !== 0 && "hidden",
                   ]}>
                   <div class="prose-styles prose-p:first:mt-0 prose-p:last:mb-0 pt-3 lg:pt-0">
