@@ -3,17 +3,17 @@
     {
       "enable": true,
       "name": "About",
-      "url": "/lisa-hall-communications/#about"
+      "url": "#about"
     },
     {
       "enable": true,
       "name": "Services",
-      "url": "/lisa-hall-communications/#services"
+      "url": "#services"
     },
     {
       "enable": true,
       "name": "Contact",
-      "url": "/lisa-hall-communications/#footer-with-contact"
+      "url": "#contact"
     },
     {
       "enable": false,
