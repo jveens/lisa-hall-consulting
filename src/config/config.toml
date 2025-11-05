@@ -4,7 +4,7 @@
   description      = "A full-service strategic communications consultancy based in Vancouver" # Shared description for SEO and OpenGraph
   tagline          = " We help organizations bring their vision to life"
   taglineSeparator = "" # default is " - " 
-  baseUrl          = "https://jveens.github.io" # Base URL for the site and used in OpenGraph meta tags.
+  baseUrl          = "https://lisa-hall.ca" # Base URL for the site and used in OpenGraph meta tags.
   logo             = "/images/logo.svg" # Path to the site's logo
   logoAlternate    = "/images/logo-light.svg" # Path to the site's alternate logo
   logoText         = "Lisa Hall Communications" # Text displayed next to the logo

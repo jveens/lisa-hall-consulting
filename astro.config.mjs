@@ -24,7 +24,7 @@ let {
 export default defineConfig({
   // site: config.site.baseUrl ? config.site.baseUrl : "http://examplesite.com",
   site: "https://lisa-hall.ca",
-  // base: "/lisa-hall-consulting",
+  base: "/",
   trailingSlash: config.site.trailingSlash ? "always" : "never",
   i18n: {
     locales: enabledLanguages,
