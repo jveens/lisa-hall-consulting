@@ -61,7 +61,7 @@ Our Website may contain links to third-party websites. We are not responsible fo
 
 ### Your Rights
 
-You have the right to request access, correction, or deletion of any personal information you provide through the contact form. Please contact us at info@lisahallcommunications.com to exercise these rights.
+You have the right to request access, correction, or deletion of any personal information you provide through the contact form. Please contact us at hello@lisa-hall.ca to exercise these rights.
 
 ### Changes to This Privacy Policy
 

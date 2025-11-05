@@ -87,7 +87,7 @@
   # Global Contact Information
   [settings.contactInfo]
     address = "Vancouver, BC, Canada"
-    email   = "[info@lisahallcommunications.com](info@lisahallcommunications.com)"
+    email   = "[hello@lisa-hall.ca](mailto:hello@lisa-hall.ca)"
     phone   = "+1 778 918 2998"
 
   # Header Offcanvas Configuration
@@ -107,7 +107,7 @@
 [settings.navigationButton]
   enable = true
   label  = "Get in touch" # Check src/i18n/en.json and src/i18n/fr.json for changing the navigation button label in different languages or directly add value here if you are not using internationalization feature
-  url    = "#footer-with-contact"
+  url    = "mailto:hello@lisa-hall.ca"
 
 
 # OpenGraph Metadata
