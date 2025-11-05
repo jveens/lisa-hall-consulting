@@ -3,10 +3,10 @@
 
 enable: true # Control the visibility of this section across all pages where it is used
 titleSize: "display-2" # If your title text is larger, use a smaller text size like "display-3", "display-2", or "display-1".
-title: "Lisa Hall Consulting"
+title: "Lisa Hall Communications"
 
 image: "/images/banner/lisa-hall-banner.webp"
-description: "A full-service strategic communications consultancy based in Vancouver, BC, working with clients locally and globally. We help organizations bring their vision to life—crafting stories that resonate, build connection, and drive meaningful impact."
+description: "Turning your vision into stories that connect, inspire, and make an impact."
 
 button:
   # Refer to the `sharedButton` schema in `src/sections.schema.ts` for all available configuration options (e.g., enable, label, url, hoverEffect, variant, icon, tag, rel, class, target, etc.)
