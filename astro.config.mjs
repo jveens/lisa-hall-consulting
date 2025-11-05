@@ -22,8 +22,9 @@ let {
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.baseUrl ? config.site.baseUrl : "http://examplesite.com",
-  base: "/lisa-hall-consulting",
+  // site: config.site.baseUrl ? config.site.baseUrl : "http://examplesite.com",
+  site: "https://lisa-hall.ca",
+  // base: "/lisa-hall-consulting",
   trailingSlash: config.site.trailingSlash ? "always" : "never",
   i18n: {
     locales: enabledLanguages,
